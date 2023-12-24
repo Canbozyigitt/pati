@@ -10,8 +10,8 @@ public class faktoriyel{
         long faktoriyel = 1; // Faktoriyel hesaplama için başlangıç değeri
 
         if (sayi < 0) {
-            System.out.println("Negatif sayıların faktoriyeli hesaplanamaz.");
-        } else {
+            System.out.println("Negatif sayıların  faktoriyeli hesaplanamaz...");
+        }  else {
             for (int i = 1; i <= sayi; i++) {
                 faktoriyel *= i;
             }
